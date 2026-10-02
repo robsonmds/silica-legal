@@ -1,76 +1,38 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Silica - Termos de Uso e Política de Privacidade</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 30px 20px;
-            background-color: #FAFAFA;
-        }
-        .container {
-            background-color: #FFFFFF;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-        }
-        h1 { color: #2E7D32; border-bottom: 2px solid #E8F5E9; padding-bottom: 10px; }
-        h2 { color: #2E7D32; margin-top: 30px; }
-        p { margin-bottom: 15px; }
-        .date { color: #888; font-size: 0.9em; font-style: italic; margin-bottom: 30px; display: block; }
-        ul { margin-bottom: 15px; }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Silica — Termos de Uso e Política de Privacidade</title>
+<meta name="description" content="Os Termos de Uso e a Política de Privacidade do Silica (Android e iPhone) ficam em silica.app.br.">
+<meta name="robots" content="noindex, follow">
+<style>
+  :root { color-scheme: light dark; --fg:#0b1220; --muted:#55606e; --bg:#ffffff; --card:#f3f6f4; --accent:#1b7f4b; }
+  @media (prefers-color-scheme: dark) { :root { --fg:#e8ede9; --muted:#9aa6a0; --bg:#0d1210; --card:#18201c; --accent:#3fbf7f; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 17px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: var(--fg); background: var(--bg); }
+  main { max-width: 560px; margin: 0 auto; padding: 48px 20px; }
+  h1 { font: 700 2rem/1.15 Georgia, serif; margin: 0 0 8px; }
+  p { color: var(--muted); margin: 0 0 28px; }
+  a.doc { display: block; padding: 18px 20px; margin-bottom: 14px; border-radius: 16px; background: var(--card); color: var(--fg); text-decoration: none; font-weight: 600; }
+  a.doc span { display: block; font-weight: 400; color: var(--muted); font-size: .9rem; margin-top: 2px; }
+  a.doc:hover, a.doc:focus-visible { outline: 2px solid var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--card); margin: 36px 0; }
+  small a { color: var(--accent); }
+</style>
 </head>
 <body>
-
-<div class="container">
-    <h1>Política de Privacidade do Silica</h1>
-    <span class="date">Última atualização: Abril de 2026</span>
-
-    <p>A sua privacidade é o pilar fundamental do <strong>Silica</strong>. Este documento explica como lidamos com as suas informações. A resposta curta é: <strong>nós não temos acesso aos seus dados.</strong></p>
-
-    <h2>1. Armazenamento de Dados (100% Offline)</h2>
-    <p>O Silica foi projetado para funcionar inteiramente sem internet. Todos os dados financeiros, transações, categorias e perfis que você insere no aplicativo são armazenados <strong>exclusivamente na memória interna do seu dispositivo</strong>, utilizando tecnologias de banco de dados local (SQLite/Room).</p>
-    <p>Nós não possuímos servidores de banco de dados, não sincronizamos suas informações na nuvem e não temos a capacidade técnica de ler, acessar, vender ou compartilhar seus dados financeiros com terceiros.</p>
-
-    <h2>2. Permissões Solicitadas</h2>
-    <ul>
-        <li><strong>Notificações:</strong> Solicitada para que a "Sentinela" possa alertá-lo sobre o vencimento de contas. O cálculo é feito localmente no seu aparelho.</li>
-        <li><strong>Biometria/Reconhecimento Facial:</strong> O aplicativo apenas solicita ao sistema Android que verifique sua identidade. Nenhuma credencial biométrica é acessada ou armazenada pelo Silica.</li>
-        <li><strong>Armazenamento/Arquivos:</strong> Utilizada exclusivamente mediante sua ação direta para exportar planilhas (CSV) ou gerar arquivos criptografados de backup no seu próprio aparelho.</li>
-    </ul>
-
-    <h2>3. Criptografia e Backup</h2>
-    <p>As preferências de segurança e o arquivo de Backup gerado pelo aplicativo são protegidos por criptografia de nível militar (AES-256). A senha de backup é criada por você e não pode ser recuperada por nós caso seja esquecida, visto que não armazenamos essa informação em nenhum servidor.</p>
-
-    <hr style="margin: 40px 0; border: 0; border-top: 1px solid #eee;">
-
-    <h1>Termos de Uso</h1>
-
-    <h2>1. Aceitação dos Termos</h2>
-    <p>Ao baixar e utilizar o Silica, você concorda com estes termos. O aplicativo é fornecido "no estado em que se encontra", como uma ferramenta para auxiliar na sua organização financeira pessoal e empresarial.</p>
-
-    <h2>2. Responsabilidade pelos Dados</h2>
-    <p>Como o Silica é 100% offline, <strong>você é o único responsável por manter a segurança do seu aparelho e por realizar backups periódicos</strong> utilizando a ferramenta interna do aplicativo. Não nos responsabilizamos por perda de dados decorrente da desinstalação do aplicativo, formatação do aparelho, roubo, perda ou esquecimento da senha de criptografia do backup.</p>
-
-    <h2>3. Assinatura Silica PRO</h2>
-    <p>O Silica oferece recursos premium através da assinatura "Silica PRO".</p>
-    <ul>
-        <li>O pagamento será cobrado na sua conta do Google Play na confirmação da compra.</li>
-        <li>A assinatura é renovada automaticamente, a menos que seja cancelada pelo menos 24 horas antes do final do período atual.</li>
-        <li>O gerenciamento e o cancelamento da assinatura devem ser feitos <strong>exclusivamente através do aplicativo Google Play Store</strong>, na seção "Assinaturas". Não temos o poder de cancelar cobranças manualmente por e-mail.</li>
-        <li>Oferecemos um período de teste gratuito (quando aplicável). Se você não cancelar antes do fim do teste, o valor da assinatura será cobrado.</li>
-    </ul>
-
-    <h2>4. Contato</h2>
-    <p>Se você tiver dúvidas sobre estes Termos ou sobre a Política de Privacidade, entre em contato através do e-mail: <a href="mailto:ro_bs_on@outlook.com" style="color: #2E7D32; font-weight: bold; text-decoration: none;">ro_bs_on@outlook.com</a></p>
-</div>
-
+<main>
+  <h1>Silica</h1>
+  <p>Os documentos oficiais do Silica para Android e iPhone ficam no site silica.app.br.</p>
+  <a class="doc" href="https://silica.app.br/termos.html">Termos de Uso<span>silica.app.br/termos.html</span></a>
+  <a class="doc" href="https://silica.app.br/privacidade.html">Política de Privacidade<span>silica.app.br/privacidade.html</span></a>
+  <hr>
+  <p lang="en">Silica's official documents for Android and iPhone are on silica.app.br.</p>
+  <a class="doc" lang="en" href="https://silica.app.br/termos.html">Terms of Use<span>silica.app.br/termos.html</span></a>
+  <a class="doc" lang="en" href="https://silica.app.br/privacidade.html">Privacy Policy<span>silica.app.br/privacidade.html</span></a>
+  <hr>
+  <small>Suporte / Support: <a href="https://silica.app.br/contato.html">silica.app.br/contato.html</a></small>
+</main>
 </body>
 </html>
